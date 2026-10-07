@@ -1,0 +1,283 @@
+📂  加载测试用例: D:\IndividualProject\text-to-sql\eval\test_cases.json
+    共 80 条用例
+📊  加载 Northwind schema: D:\IndividualProject\text-to-sql\data\northwind.db
+    共 17 张表
+🤖  初始化 Text2SQLService ...
+✅ 成功加载 120 个示例
+✅ 查询分类器训练完成，样本数: 120
+    初始化完成
+
+============================================================
+  模式: default  (80 条用例)
+============================================================
+  [01] 查询所有客户信息                       | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 8742ms
+  [02] 查询来自德国的客户                      | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2112ms
+  [03] 查询单价超过50的产品                    | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 2537ms
+  [04] 查询所有已停产的产品                     | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1286ms
+  [05] 查询运费超过200的订单                   | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1321ms
+  [06] 查询职位为Sales Manager的员工          | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2545ms
+  [07] 查询产品名称中包含Chai的商品               | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1508ms
+  [08] 查询库存量超过50件的产品并按库存量降序排列         | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 3158ms
+  [09] 查询发往美国的前20条订单                  | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1988ms
+  [10] 查询来自法国或德国的供应商                  | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2293ms
+  [11] 查询每个订单对应的客户公司名称和订单日期           | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2486ms
+  [12] 查询订单明细中每个产品的名称、单价和订购数量         | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2564ms
+  [13] 查询每位员工处理过的订单数量                 | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2902ms
+  [14] 查询每个产品类别下的产品名称和单价              | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2322ms
+  [15] 查询来自美国的客户的订单及每笔订单金额            | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4536ms
+  [16] 查询每个供应商提供的产品数量                 | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 3363ms
+  [17] 查询向Andrew Fuller汇报的员工列表        | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3251ms
+  [18] 查询包含海鲜类产品的订单编号和客户名称            | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4920ms
+  [19] 查询每个运货商承运的订单数量和平均运费            | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3284ms
+  [20] 查询订单明细中折扣金额最高的前10条记录           | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1577ms
+  [21] 查询每个区域下辖的领地数量                  | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3137ms
+  [22] 查询没有下过任何订单的客户                  | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1635ms
+  [23] 查询每位员工服务过的不重复客户数量              | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1865ms
+  [24] 查询每个类别中单价最高的产品名称               | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4009ms
+  [25] 查询每位员工的上级主管姓名                  | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4196ms
+  [26] 统计每个国家的客户数量并按数量降序排列            | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2156ms
+  [27] 计算所有产品的平均单价                    | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1314ms
+  [28] 统计每个产品类别的产品数量                  | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2589ms
+  [29] 计算每位员工的总销售金额                   | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 6195ms
+  [30] 统计每个目的国的总运费和平均运费               | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3075ms
+  [31] 计算消费总额最高的前20名客户                | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 5543ms
+  [32] 统计每种产品的总订购次数和总订购数量             | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2907ms
+  [33] 计算每个供应商所提供产品的平均单价              | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2830ms
+  [34] 统计每个产品类别的最高价格和最低价格             | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3223ms
+  [35] 统计每个运货商处理的订单数量和总运费             | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3675ms
+  [36] 计算每个客户的平均订单金额前10名              | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4591ms
+  [37] 统计折扣总额超过1000的订单数量              | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1989ms
+  [38] 计算库存总价值最高的前5个产品                | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 3558ms
+  [39] 统计每位员工每年处理的订单数量                | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 6052ms
+  [40] 计算全部订单折扣后的总销售额                 | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 2515ms
+  [41] 查询2014年的所有订单（前50条）             | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2841ms
+  [42] 查询2015年第三季度的订单                 | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2637ms
+  [43] 统计每年的订单数量和总运费变化趋势              | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2774ms
+  [44] 统计2014年每月的总销售额                 | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4480ms
+  [45] 计算所有订单从下单到发货的平均天数              | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2302ms
+  [46] 查询超过预期收货日期才发货的前20条订单           | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 2612ms
+  [47] 查询2013年和2014年都有购买记录的客户数量       | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3660ms
+  [48] 统计2014年上半年每月的订单数量              | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4881ms
+  [49] 查询2021年到2023年每年的总销售额           | strat=zero_shot  | llm=✓ | syn=✓ | ex=✗ | 5982ms
+  [50] 查询历史上订单量最多的前5个月份               | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3182ms
+  [51] 查询每位员工的销售额及其在全员中的排名            | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 7982ms
+  [52] 查询每个类别内各产品按单价的排名               | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 4109ms
+  [53] 统计每个客户的订单数量及在所有客户中的排名          | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 5121ms
+  [54] 计算每位员工的订单数与全员平均订单数的差值          | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 6716ms
+  [55] 按月统计销售额及与上月相比的增减金额（前24个月）      | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 10417ms
+  [56] 查询每位员工按时间排序的累计销售额              | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 6986ms
+  [57] 查询每个国家的总销售额及全球排名               | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 4271ms
+  [58] 计算每个产品的订单量占同类别订单量的百分比          | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 5981ms
+  [59] 查询每位员工最近处理的3个订单                | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4359ms
+  [60] 查询2013年和2014年按季度统计的销售额及同比变化    | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 11549ms
+  [61] 查询消费金额超过所有客户平均消费水平的客户          | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 9386ms
+  [62] 查询从未被任何订单订购过的产品                | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 13598ms
+  [63] 查询销售额最高的前3个产品类别                | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 5914ms
+  [64] 查询订单数量高于全员平均水平的员工              | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2521ms
+  [65] 查询购买产品种类最多的前5个客户               | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4657ms
+  [66] 查询每个供应商中单价高于该供应商平均价格的产品        | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3995ms
+  [67] 查询在所有订单中从未享受过折扣的产品             | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 2275ms
+  [68] 使用CTE统计每位员工的销售额及占总销售额的比例       | strat=zero_shot  | llm=✓ | syn=✓ | ex=✗ | 11982ms
+  [69] 查询每个客户的最近购买时间、总订单数和购买产品种类数     | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 5108ms
+  [70] 查询1997年销售额最高和最低的月份             | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 6794ms
+  [71] 查询DWS日汇总表中订单量最多的前10天           | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1998ms
+  [72] 查询DWS国家汇总表中销售额排名前5的国家          | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 3514ms
+  [73] 从员工绩效汇总表查询销售额最高的3名员工           | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4340ms
+  [74] 统计DWS日汇总表中2020年每月的平均日订单量       | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4052ms
+  [75] 对比DWS员工绩效表与订单表中各员工的总订单数        | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 5455ms
+  [76] 查询库存数量为零的产品                    | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1408ms
+  [77] 查询尚未发货的订单                      | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2152ms
+  [78] 查询折扣为25%的订单明细                  | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1695ms
+  [79] 查询同一订单中同一产品出现多次的重复记录           | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 3409ms
+  [80] 查询单条订单明细中订购数量超过100件的记录         | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3322ms
+
+  ── default 汇总 ──
+  LLM成功率:  100.0%
+  语法正确率: 100.0%
+  EX成功率:   97.5%
+  策略准确率: 56.2%
+  平均耗时:   4077ms
+
+============================================================
+  模式: zero_shot_only  (80 条用例)
+============================================================
+  [01] 查询所有客户信息                       | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1596ms
+  [02] 查询来自德国的客户                      | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1200ms
+  [03] 查询单价超过50的产品                    | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1874ms
+  [04] 查询所有已停产的产品                     | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1317ms
+  [05] 查询运费超过200的订单                   | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1316ms
+  [06] 查询职位为Sales Manager的员工          | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1699ms
+  [07] 查询产品名称中包含Chai的商品               | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1422ms
+  [08] 查询库存量超过50件的产品并按库存量降序排列         | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 2561ms
+  [09] 查询发往美国的前20条订单                  | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 2168ms
+  [10] 查询来自法国或德国的供应商                  | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1459ms
+  [11] 查询每个订单对应的客户公司名称和订单日期           | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 2162ms
+  [12] 查询订单明细中每个产品的名称、单价和订购数量         | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 2577ms
+  [13] 查询每位员工处理过的订单数量                 | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1727ms
+  [14] 查询每个产品类别下的产品名称和单价              | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 2335ms
+  [15] 查询来自美国的客户的订单及每笔订单金额            | strat=zero_shot  | llm=✓ | syn=✓ | ex=✗ | 6254ms
+  [16] 查询每个供应商提供的产品数量                 | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 2853ms
+  [17] 查询向Andrew Fuller汇报的员工列表        | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 2706ms
+  [18] 查询包含海鲜类产品的订单编号和客户名称            | strat=zero_shot  | llm=✓ | syn=✓ | ex=✗ | 4577ms
+  [19] 查询每个运货商承运的订单数量和平均运费            | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 3937ms
+  [20] 查询订单明细中折扣金额最高的前10条记录           | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1581ms
+  [21] 查询每个区域下辖的领地数量                  | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1936ms
+  [22] 查询没有下过任何订单的客户                  | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1904ms
+  [23] 查询每位员工服务过的不重复客户数量              | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1974ms
+  [24] 查询每个类别中单价最高的产品名称               | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 3143ms
+  [25] 查询每位员工的上级主管姓名                  | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 3419ms
+  [26] 统计每个国家的客户数量并按数量降序排列            | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 14710ms
+  [27] 计算所有产品的平均单价                    | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 13959ms
+  [28] 统计每个产品类别的产品数量                  | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 14251ms
+  [29] 计算每位员工的总销售金额                   | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 18569ms
+  [30] 统计每个目的国的总运费和平均运费               | strat=zero_shot  | llm=✓ | syn=✓ | ex=✗ | 14868ms
+  [31] 计算消费总额最高的前20名客户                | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 18010ms
+  [32] 统计每种产品的总订购次数和总订购数量             | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 14694ms
+  [33] 计算每个供应商所提供产品的平均单价              | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 15212ms
+  [34] 统计每个产品类别的最高价格和最低价格             | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 15786ms
+  [35] 统计每个运货商处理的订单数量和总运费             | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 16355ms
+  [36] 计算每个客户的平均订单金额前10名              | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 18103ms
+  [37] 统计折扣总额超过1000的订单数量              | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 14215ms
+  [38] 计算库存总价值最高的前5个产品                | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 15331ms
+  [39] 统计每位员工每年处理的订单数量                | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 18666ms
+  [40] 计算全部订单折扣后的总销售额                 | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 14737ms
+  [41] 查询2014年的所有订单（前50条）             | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 14200ms
+  [42] 查询2015年第三季度的订单                 | strat=zero_shot  | llm=✓ | syn=✓ | ex=✗ | 21669ms
+  [43] 统计每年的订单数量和总运费变化趋势              | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 16282ms
+  [44] 统计2014年每月的总销售额                 | strat=zero_shot  | llm=✓ | syn=✓ | ex=✗ | 16460ms
+  [45] 计算所有订单从下单到发货的平均天数              | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 14726ms
+  [46] 查询超过预期收货日期才发货的前20条订单           | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 14428ms
+  [47] 查询2013年和2014年都有购买记录的客户数量       | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 17701ms
+  [48] 统计2014年上半年每月的订单数量              | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 17966ms
+  [49] 查询2021年到2023年每年的总销售额           | strat=zero_shot  | llm=✓ | syn=✓ | ex=✗ | 19085ms
+  [50] 查询历史上订单量最多的前5个月份               | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 15511ms
+  [51] 查询每位员工的销售额及其在全员中的排名            | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 18437ms
+  [52] 查询每个类别内各产品按单价的排名               | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 16901ms
+  [53] 统计每个客户的订单数量及在所有客户中的排名          | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 17011ms
+  [54] 计算每位员工的订单数与全员平均订单数的差值          | strat=zero_shot  | llm=✓ | syn=✓ | ex=✗ | 17740ms
+  [55] 按月统计销售额及与上月相比的增减金额（前24个月）      | strat=zero_shot  | llm=✓ | syn=✓ | ex=✗ | 22597ms
+  [56] 查询每位员工按时间排序的累计销售额              | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 19877ms
+  [57] 查询每个国家的总销售额及全球排名               | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 3993ms
+  [58] 计算每个产品的订单量占同类别订单量的百分比          | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 5759ms
+  [59] 查询每位员工最近处理的3个订单                | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 3971ms
+  [60] 查询2013年和2014年按季度统计的销售额及同比变化    | strat=zero_shot  | llm=✓ | syn=✓ | ex=✗ | 10069ms
+  [61] 查询消费金额超过所有客户平均消费水平的客户          | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 8375ms
+  [62] 查询从未被任何订单订购过的产品                | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1905ms
+  [63] 查询销售额最高的前3个产品类别                | strat=zero_shot  | llm=✓ | syn=✓ | ex=✗ | 4013ms
+  [64] 查询订单数量高于全员平均水平的员工              | strat=zero_shot  | llm=✓ | syn=✓ | ex=✗ | 5743ms
+  [65] 查询购买产品种类最多的前5个客户               | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 5197ms
+  [66] 查询每个供应商中单价高于该供应商平均价格的产品        | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 4004ms
+  [67] 查询在所有订单中从未享受过折扣的产品             | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1451ms
+  [68] 使用CTE统计每位员工的销售额及占总销售额的比例       | strat=zero_shot  | llm=✓ | syn=✓ | ex=✗ | 10739ms
+  [69] 查询每个客户的最近购买时间、总订单数和购买产品种类数     | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 5570ms
+  [70] 查询1997年销售额最高和最低的月份             | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 4286ms
+  [71] 查询DWS日汇总表中订单量最多的前10天           | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1982ms
+  [72] 查询DWS国家汇总表中销售额排名前5的国家          | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 2615ms
+  [73] 从员工绩效汇总表查询销售额最高的3名员工           | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 3323ms
+  [74] 统计DWS日汇总表中2020年每月的平均日订单量       | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 3568ms
+  [75] 对比DWS员工绩效表与订单表中各员工的总订单数        | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 4402ms
+  [76] 查询库存数量为零的产品                    | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1415ms
+  [77] 查询尚未发货的订单                      | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1152ms
+  [78] 查询折扣为25%的订单明细                  | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1463ms
+  [79] 查询同一订单中同一产品出现多次的重复记录           | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 2466ms
+  [80] 查询单条订单明细中订购数量超过100件的记录         | strat=zero_shot  | llm=✓ | syn=✓ | ex=✓ | 1466ms
+
+  ── zero_shot_only 汇总 ──
+  LLM成功率:  100.0%
+  语法正确率: 100.0%
+  EX成功率:   85.0%
+  策略准确率: 50.0%
+  平均耗时:   8459ms
+
+============================================================
+  模式: few_shot_top5  (80 条用例)
+============================================================
+  [01] 查询所有客户信息                       | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1832ms
+  [02] 查询来自德国的客户                      | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1444ms
+  [03] 查询单价超过50的产品                    | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1421ms
+  [04] 查询所有已停产的产品                     | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1946ms
+  [05] 查询运费超过200的订单                   | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1616ms
+  [06] 查询职位为Sales Manager的员工          | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1918ms
+  [07] 查询产品名称中包含Chai的商品               | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1656ms
+  [08] 查询库存量超过50件的产品并按库存量降序排列         | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2496ms
+  [09] 查询发往美国的前20条订单                  | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1631ms
+  [10] 查询来自法国或德国的供应商                  | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1630ms
+  [11] 查询每个订单对应的客户公司名称和订单日期           | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2451ms
+  [12] 查询订单明细中每个产品的名称、单价和订购数量         | strat=few_shot   | llm=✓ | syn=✓ | ex=✗ | 2296ms
+  [13] 查询每位员工处理过的订单数量                 | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2840ms
+  [14] 查询每个产品类别下的产品名称和单价              | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2344ms
+  [15] 查询来自美国的客户的订单及每笔订单金额            | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3692ms
+  [16] 查询每个供应商提供的产品数量                 | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2910ms
+  [17] 查询向Andrew Fuller汇报的员工列表        | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2781ms
+  [18] 查询包含海鲜类产品的订单编号和客户名称            | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 5181ms
+  [19] 查询每个运货商承运的订单数量和平均运费            | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3757ms
+  [20] 查询订单明细中折扣金额最高的前10条记录           | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 15026ms
+  [21] 查询每个区域下辖的领地数量                  | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3412ms
+  [22] 查询没有下过任何订单的客户                  | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2000ms
+  [23] 查询每位员工服务过的不重复客户数量              | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2114ms
+  [24] 查询每个类别中单价最高的产品名称               | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4147ms
+  [25] 查询每位员工的上级主管姓名                  | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3372ms
+  [26] 统计每个国家的客户数量并按数量降序排列            | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2380ms
+  [27] 计算所有产品的平均单价                    | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1617ms
+  [28] 统计每个产品类别的产品数量                  | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1885ms
+  [29] 计算每位员工的总销售金额                   | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4895ms
+  [30] 统计每个目的国的总运费和平均运费               | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2639ms
+  [31] 计算消费总额最高的前20名客户                | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4055ms
+  [32] 统计每种产品的总订购次数和总订购数量             | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2288ms
+  [33] 计算每个供应商所提供产品的平均单价              | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3135ms
+  [34] 统计每个产品类别的最高价格和最低价格             | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3377ms
+  [35] 统计每个运货商处理的订单数量和总运费             | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3597ms
+  [36] 计算每个客户的平均订单金额前10名              | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4637ms
+  [37] 统计折扣总额超过1000的订单数量              | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2148ms
+  [38] 计算库存总价值最高的前5个产品                | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3444ms
+  [39] 统计每位员工每年处理的订单数量                | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 5496ms
+  [40] 计算全部订单折扣后的总销售额                 | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1989ms
+  [41] 查询2014年的所有订单（前50条）             | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2208ms
+  [42] 查询2015年第三季度的订单                 | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2652ms
+  [43] 统计每年的订单数量和总运费变化趋势              | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2669ms
+  [44] 统计2014年每月的总销售额                 | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4764ms
+  [45] 计算所有订单从下单到发货的平均天数              | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2586ms
+  [46] 查询超过预期收货日期才发货的前20条订单           | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1836ms
+  [47] 查询2013年和2014年都有购买记录的客户数量       | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2936ms
+  [48] 统计2014年上半年每月的订单数量              | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4801ms
+  [49] 查询2021年到2023年每年的总销售额           | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4898ms
+  [50] 查询历史上订单量最多的前5个月份               | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2625ms
+  [51] 查询每位员工的销售额及其在全员中的排名            | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 9551ms
+  [52] 查询每个类别内各产品按单价的排名               | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4423ms
+  [53] 统计每个客户的订单数量及在所有客户中的排名          | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4327ms
+  [54] 计算每位员工的订单数与全员平均订单数的差值          | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 6301ms
+  [55] 按月统计销售额及与上月相比的增减金额（前24个月）      | strat=few_shot   | llm=✓ | syn=✓ | ex=✗ | 9014ms
+  [56] 查询每位员工按时间排序的累计销售额              | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4760ms
+  [57] 查询每个国家的总销售额及全球排名               | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4628ms
+  [58] 计算每个产品的订单量占同类别订单量的百分比          | strat=few_shot   | llm=✓ | syn=✓ | ex=✗ | 6676ms
+  [59] 查询每位员工最近处理的3个订单                | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3487ms
+  [60] 查询2013年和2014年按季度统计的销售额及同比变化    | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 10761ms
+  [61] 查询消费金额超过所有客户平均消费水平的客户          | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 5686ms
+  [62] 查询从未被任何订单订购过的产品                | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1852ms
+  [63] 查询销售额最高的前3个产品类别                | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 5202ms
+  [64] 查询订单数量高于全员平均水平的员工              | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2544ms
+  [65] 查询购买产品种类最多的前5个客户               | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3405ms
+  [66] 查询每个供应商中单价高于该供应商平均价格的产品        | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3947ms
+  [67] 查询在所有订单中从未享受过折扣的产品             | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1738ms
+  [68] 使用CTE统计每位员工的销售额及占总销售额的比例       | strat=few_shot   | llm=✓ | syn=✓ | ex=✗ | 9703ms
+  [69] 查询每个客户的最近购买时间、总订单数和购买产品种类数     | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 4382ms
+  [70] 查询1997年销售额最高和最低的月份             | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 6428ms
+  [71] 查询DWS日汇总表中订单量最多的前10天           | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1947ms
+  [72] 查询DWS国家汇总表中销售额排名前5的国家          | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2740ms
+  [73] 从员工绩效汇总表查询销售额最高的3名员工           | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2456ms
+  [74] 统计DWS日汇总表中2020年每月的平均日订单量       | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 3481ms
+  [75] 对比DWS员工绩效表与订单表中各员工的总订单数        | strat=few_shot   | llm=✓ | syn=✓ | ex=✗ | 3260ms
+  [76] 查询库存数量为零的产品                    | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1384ms
+  [77] 查询尚未发货的订单                      | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1352ms
+  [78] 查询折扣为25%的订单明细                  | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1601ms
+  [79] 查询同一订单中同一产品出现多次的重复记录           | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 2149ms
+  [80] 查询单条订单明细中订购数量超过100件的记录         | strat=few_shot   | llm=✓ | syn=✓ | ex=✓ | 1779ms
+
+  ── few_shot_top5 汇总 ──
+  LLM成功率:  100.0%
+  语法正确率: 100.0%
+  EX成功率:   93.8%
+  策略准确率: 48.8%
+  平均耗时:   3580ms
+
+✅  报告已写入 D:\IndividualProject\text-to-sql\eval\report.md

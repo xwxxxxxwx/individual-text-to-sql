@@ -1,0 +1,266 @@
+================================================================================
+DOCUMENT METADATA
+================================================================================
+Name: Word Dissertation Template.doc
+Built-in props — Author: Steven Galbraith
+Pages: 12
+Words: 343
+Paragraphs: 33
+
+================================================================================
+PAGE SETUP
+================================================================================
+Top margin:     2.54 cm  (72.0 pt)
+Bottom margin:  2.54 cm  (72.0 pt)
+Left margin:    3.17 cm  (90.0 pt)
+Right margin:   3.17 cm  (90.0 pt)
+Gutter:         0.0 cm
+Header offset:  1.25 cm
+Footer offset:  1.25 cm
+Page width:     20.99 cm
+Page height:    29.7 cm
+Mirror margins: 0
+Orientation:    Portrait
+
+================================================================================
+STYLES USED (selected — heading / body / abstract)
+================================================================================
+
+[TOC 1]
+  Font: Cambria | Size: 12.0pt | Bold: -1 | Italic: 0 | Color: 0
+  Line spacing: 12.0pt (rule=0) | Space before: 6.0pt | Space after: 0.0pt
+  Alignment: 0 (0=Left,1=Center,2=Right,3=Justify)
+
+[TOC 2]
+  Font: Cambria | Size: 11.0pt | Bold: -1 | Italic: 0 | Color: 0
+  Line spacing: 12.0pt (rule=0) | Space before: 0.0pt | Space after: 0.0pt
+  Alignment: 0 (0=Left,1=Center,2=Right,3=Justify)
+
+================================================================================
+FULL PARAGRAPH DUMP — text + style + font + size
+================================================================================
+
+[001] (empty) style='正文'
+
+[002] (empty) style='正文'
+
+[003] (empty) style='正文'
+
+[004] (empty) style='正文'
+
+[005] style='正文' | font=Cambria 28.0pt | B=0 I=0
+      Title of your dissertation
+
+[006] (empty) style='正文'
+
+[007] (empty) style='正文'
+
+[008] (empty) style='正文'
+
+[009] (empty) style='正文'
+
+[010] (empty) style='正文'
+
+[011] (empty) style='正文'
+
+[012] (empty) style='正文'
+
+[013] (empty) style='正文'
+
+[014] (empty) style='正文'
+
+[015] (empty) style='正文'
+
+[016] (empty) style='正文'
+
+[017] (empty) style='正文'
+
+[018] (empty) style='正文'
+
+[019] (empty) style='正文'
+
+[020] style='正文' | font=Cambria 18.0pt | B=0 I=0
+      Your Name
+
+[021] (empty) style='正文'
+
+[022] (empty) style='正文'
+
+[023] (empty) style='正文'
+
+[024] style='CM1' | font=Nimbus Rom No 9 L 12.0pt | B=0 I=0
+      School of Computer Science / Department of Statistics
+
+[025] (empty) style='正文'
+
+[026] style='正文' | font=Cambria 12.0pt | B=0 I=0
+      The University of Auckland
+
+[027] (empty) style='正文'
+
+[028] (empty) style='正文'
+
+[029] (empty) style='正文'
+
+[030] (empty) style='正文'
+
+[031] style='CM1' | font=Nimbus Rom No 9 L 12.0pt | B=0 I=0
+      Supervisor: Your supervisor’s name
+
+[032] style='Default' | font=Nimbus Rom No 9 L 12.0pt | B=0 I=0
+      A dissertation submitted in partial fulﬁllment of the requirements for the degree of Master of Professional Studies in Data Science / Master of Data Science, The University of Auckland, 20XX.
+
+[033] (empty) style='正文'
+
+[034] (empty) style='正文'
+
+[035] (empty) style='正文'
+
+[036] (empty) style='正文'
+
+[037] (empty) style='正文'
+
+[038] (empty) style='正文'
+
+[039] (empty) style='正文'
+
+[040] (empty) style='正文'
+
+[041] style='标题 1' | font=Calibri 16.0pt | B=-1 I=0
+      Abstract
+
+[042] (empty) style='CM3'
+
+[043] style='CM3' | font=Nimbus Rom No 9 L 12.0pt | B=0 I=0
+      Put your abstract here. The abstract should contain a brief summary of the aim, methodologies, ﬁnding and conclusions of the dissertation. The abstract should normally be fewer than 350 words.
+
+[044] (empty) style='正文'
+
+[045] (empty) style='正文'
+
+[046] (empty) style='正文'
+
+[047] (empty) style='正文'
+
+[048] style='网格表 3' | font=Calibri 14.0pt | B=-1 I=0
+      Table of Contents
+
+[049] style='TOC 1' | font=Cambria 12.0pt | B=-1 I=0
+      Abstract	2
+
+[050] style='TOC 1' | font=Cambria 12.0pt | B=-1 I=0
+      Chapter 1  Introduction	6
+
+[051] style='TOC 1' | font=Cambria 12.0pt | B=-1 I=0
+      Chapter 2  Methodologies and analysis	7
+
+[052] style='TOC 1' | font=Cambria 12.0pt | B=-1 I=0
+      Chapter 3  Discussion	8
+
+[053] style='TOC 1' | font=Cambria 12.0pt | B=-1 I=0
+      Chapter 4  Conclusions	9
+
+[054] style='TOC 1' | font=Cambria 12.0pt | B=-1 I=0
+      References	10
+
+[055] style='TOC 1' | font=Cambria 12.0pt | B=-1 I=0
+      Appendix A  Some extra things	11
+
+[056] (empty) style='正文'
+
+[057] (empty) style='正文'
+
+[058] (empty) style='正文'
+
+[059] (empty) style='正文'
+
+[060] (empty) style='正文'
+
+[061] (empty) style='正文'
+
+[062] style='标题 1' | font=Calibri 9999999.0pt | B=-1 I=0
+      Chapter 1 Introduction
+
+[063] (empty) style='CM3'
+
+[064] style='CM3' | font=Nimbus Rom No 9 L 12.0pt | B=0 I=0
+      A thesis should always have an introduction. The purpose is to describe the general subject area, state the research problem of interest, outline the main results of the thesis, and put the results in...
+
+[065] style='CM6' | font=Nimbus Rom No 9 L 12.0pt | B=0 I=0
+      The main body of the text must be divided into a logical scheme which is followed consistently throughout the work. It usually starts with an introduction chapter and ends with a conclusion chapter. S...
+
+[066] (empty) style='正文'
+
+[067] (empty) style='正文'
+
+[068] (empty) style='正文'
+
+[069] (empty) style='正文'
+
+[070] style='标题 1' | font=Calibri 9999999.0pt | B=-1 I=0
+      Chapter 2 Methodologies and analysis
+
+[071] style='CM11' | font=Nimbus Rom No 9 L 14.0pt | B=0 I=0
+      2.1 Methodologies
+
+[072] style='正文' | font=Cambria 14.0pt | B=0 I=0
+      2.2 Analysis
+
+[073] (empty) style='正文'
+
+[074] (empty) style='标题 1'
+
+[075] (empty) style='标题 1'
+
+[076] (empty) style='标题 1'
+
+[077] style='标题 1' | font=Calibri 9999999.0pt | B=-1 I=0
+      Chapter 3 Discussion
+
+[078] style='CM11' | font=Nimbus Rom No 9 L 14.0pt | B=0 I=0
+      3.1 Main results
+
+[079] style='Default' | font=Nimbus Rom No 9 L 14.0pt | B=0 I=0
+      3.2 Discussion
+
+[080] (empty) style='标题 1'
+
+[081] (empty) style='标题 1'
+
+[082] style='标题 1' | font=Calibri 9999999.0pt | B=-1 I=0
+      Chapter 4 Conclusions
+
+[083] (empty) style='正文'
+
+[084] (empty) style='正文'
+
+[085] style='标题 1' | font=Calibri 16.0pt | B=-1 I=0
+      References
+
+[086] style='CM12' | font=Nimbus Rom No 9 L 10.0pt | B=0 I=9999999
+      [1] Farge Marie, Wavelet Transforms and Their Applications to Turbulence, Ann. Rev. Fluid Mech. volume 24, pages 395-457, 1992.
+
+[087] style='CM12' | font=Nimbus Rom No 9 L 10.0pt | B=0 I=9999999
+      [2] Salmond Jennifer, Vertical Mixing of Ozone in the Very Stable Nocturnal Boundary Layer, PhD Thesis, University of British Columbia, 2001.
+
+[088] style='CM12' | font=Nimbus Rom No 9 L 10.0pt | B=0 I=9999999
+      [3] Stull B. Ronald, Introduction to Boundary Layer Meteorology, Dordrecht; Boston: Kulwer Academic Publishers, 1988.
+
+[089] style='CM8' | font=Nimbus Rom No 9 L 10.0pt | B=0 I=9999999
+      [4] Torrence Christopher, Compo Gilbert P., A Practical Guide to Wavelet Analysis, Bulletin of the American Meteorological Society volume 79, pages 61-78, 1998.
+
+[090] (empty) style='正文'
+
+[091] (empty) style='正文'
+
+[092] style='标题 1' | font=Calibri 9999999.0pt | B=-1 I=0
+      Appendix A Some extra things
+
+[093] (empty) style='正文'
+
+[094] style='正文' | font=Cambria 12.0pt | B=0 I=0
+      This is an optional chapter for any additional material that does not ﬁt conveniently into the body of the text (e.g., data, copies of computer programmes). Note that appendices won’t necessarily be r...
+
+[095] (empty) style='正文'
+
+[096] (empty) style='正文'
